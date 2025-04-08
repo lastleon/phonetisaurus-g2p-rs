@@ -11,7 +11,7 @@ Note that the API might slightly change in the future.
 To use the crate, add the following to your `Cargo.toml`:
 ```toml
 [dependencies]
-phonetisaurus-g2p-rs = "0.1.0"
+phonetisaurus-g2p = "0.1.1"
 ```
 
 Then, you can include the model file in your binary and run it:
