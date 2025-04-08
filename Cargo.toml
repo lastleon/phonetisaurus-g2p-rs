@@ -1,0 +1,19 @@
+[package]
+name = "phonetisaurus-g2p"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+keywords = ["g2p", "linguistics", "phonemizer", "phonetisaurus", "fst"]
+authors = ["lastleon <lastleon@posteo.de>"]
+description = "Phonemization in Rust using a finite state transducer (FST) trained with Phonetisaurus."
+repository = "https://github.com/lastleon/phonetisaurus-g2p-rs"
+exclude = ["tests"]
+
+[lib]
+name = "phonetisaurus_g2p"
+path = "src/lib.rs"
+doctest = false
+
+[dependencies]
+anyhow = "1.0.96"
+rustfst = "1.1.2"
